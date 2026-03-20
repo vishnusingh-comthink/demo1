@@ -1,0 +1,10 @@
+def mult(a, b):
+  return a*b
+
+
+def raise(a, b):
+  prod = 1
+    while b > 0:
+      prod = prod*a
+      b -= 1
+    return prod
